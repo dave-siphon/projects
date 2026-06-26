@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <fieldset name="Vertinary Form">
+      <legend>Vertinary Form</legend>
+      <h2>Information of the Animal Owner</h2>
+
+      <div>
+        <section>
+          <label for="Name">Name</label>
+          <input
+            type="text"
+            id="Name"
+            placeholder="Enter Your Firstname"
+            name="Name"
+            required
+          />
+        </section>
+
+        <section>
+          <label for="Surname">Surname</label>
+          <input
+            type="text"
+            id="Surname"
+            placeholder="Enter Your Surname"
+            name="Surname"
+            required
+          />
+        </section>
+
+        <section>
+          <label for="Phone">Phone:</label>
+          <input
+            type="tel"
+            id="Phone"
+            placeholder="+233 123456789"
+            name="Phone"
+            required
+          />
+        </section>
+      </div>
+
+      <h3>Gender</h3>
+      <div>
+        <section>
+          <label for="Male">Male</label>
+          <input type="radio" id="Male" name="Gender" value="Male" />
+        </section>
+
+        <section>
+          <label for="Female">Female</label>
+          <input type="radio" id="Female" name="Gender" value="Female" />
+        </section>
+      </div>
+
+      <div>
+        <section>
+          <h3>Detailed Disease Description</h3>
+
+          <textarea
+            name="description"
+            rows="0"
+            cols="50"
+            placeholder="Write the description here..."
+            required
+          ></textarea>
+
+          <br />
+          <input type="submit" value="Submit" />
+        </section>
+      </div>
+    </fieldset>
+  </body>
+</html>
+
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="div3"></div>
+<div class="div4"></div>
